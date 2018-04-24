@@ -1,0 +1,61 @@
+body{
+ background: url('img/background.jpg');
+ font-family: 'Roboto';
+
+}
+
+.paymentMethod{
+	display: flex;
+	flex-direction:column;
+	background-color: white;
+	border-radius: 5px;
+	margin:20% auto;
+	width: 25%;
+}
+	.paymentMethod .headPayment{
+		margin: 5% 0%;
+	}
+	.paymentMethod .headPayment .steps{
+		display: flex;
+		text-align: center;
+		margin: 0px 45%;
+	}
+	.paymentMethod .headPayment .circle{
+		width:5px;
+		height: 5px;
+		border-radius: 5px;
+		margin:0px 2px;
+		background: #8080808a;
+	}
+	.paymentMethod .headPayment .circle:first-child{
+		background: #808080;
+	}
+	.paymentMethod .headPayment h2{
+		font-size: 20px;
+		text-align: center;
+		text-transform: uppercase;
+		color:#4f4f4f;
+	}
+
+.paymentMethod img{
+	width: 40px;
+}
+
+	.paymentMethod .item{
+		border-top: 1px solid grey;
+		padding: 5%;
+	}
+	.paymentMethod .item label{
+		text-transform: uppercase;
+		font-size: 12px;
+		color:grey;
+		font-weight: 700;
+	}
+	.paymentMethod .button{
+		background: blue;
+		text-align: center;
+		color:white;
+		font-size: 14px;
+		text-transform: uppercase;
+		padding: 5%;
+	}
